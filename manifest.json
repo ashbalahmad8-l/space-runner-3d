@@ -1,9 +1,24 @@
 {
   "name": "Space Runner 3D",
   "short_name": "Space Runner",
+  "id": "./",
   "start_url": "./index.html",
   "display": "standalone",
+  "description": "Space Runner 3D is an exciting offline 3D game. Dodge obstacles and test your reflexes in space environment.",
   "background_color": "#020510",
   "theme_color": "#020510",
-  "description": "Space Runner 3D is an exciting offline 3D game. Dodge obstacles, and test your reflexes in space environment. Play anytime, even without an internet connection."
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
